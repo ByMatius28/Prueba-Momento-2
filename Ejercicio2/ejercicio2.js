@@ -4,7 +4,7 @@
 
 let ages = [15, 50, 45];
 
-let mi_edad = 18; 
+ages.splice(0,1,18); 
 
 for (let i = 0; i < ages.length; i++) {
   if (ages[i] > 25) {

@@ -7,10 +7,9 @@ let numeros=[15,45,50]
 numeros.unshift(18)
 
 for(let i = 0; i < numeros.length; i++){
-    if(numeros >= 25){
+    if(numeros > 25){
      alert(numeros[i]);
     }
-   
-   
+   alert(numeros[i])
 }
 

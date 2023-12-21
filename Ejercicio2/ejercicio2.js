@@ -2,14 +2,14 @@
 //A a partir del array ages=[15, 50, 45] agregue su edad. 
 //Usando un for con un if, muestre en pantalla  solo las edades mayores a 25
 
-let numeros=[15,45,50]
+let ages = [15, 50, 45];
 
-numeros.unshift(18)
+let mi_edad = 18; 
 
-for(let i = 0; i < numeros.length; i++){
-    if(i > 25){
-     alert(numeros[i]);
-    }
-   alert(numeros[i])
+for (let i = 0; i < ages.length; i++) {
+  if (ages[i] > 25) {
+    alert(ages[i]);
+  }
 }
+
 
